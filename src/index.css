@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .b-nav-active {
+    @apply bg-[#86EB9A] text-[#202123];
+  }
+
+  .b-nav-hover {
+    @apply hover:border border-[#86EB94];
+  }
+
+  .b-nav {
+    @apply py-1 px-20 text-2xl font-light block rounded-r-xl transition-colors;
+  }
+}
+
+@layer utilities {
+  .border-input {
+    @apply border-2 border-gray-400/70 shadow-md shadow-gray-400;
+  }
+}
